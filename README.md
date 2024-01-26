@@ -60,10 +60,10 @@
 |private|[pem](./pem/testECCP384.pem)|[hex](./hex/testECCP384.hex)|
 |public|[pem](./pem/testECCP384.pub.pem)|[hex](./hex/testECCP384.pub.hex)|
 
-|testECCP512|||
+|testECCP521|||
 |--|--|--|
-|private|[pem](./pem/testECCP512.pem)|[hex](./hex/testECCP512.hex)|
-|public|[pem](./pem/testECCP512.pub.pem)|[hex](./hex/testECCP512.pub.hex)|
+|private|[pem](./pem/testECCP521.pem)|[hex](./hex/testECCP521.hex)|
+|public|[pem](./pem/testECCP521.pub.pem)|[hex](./hex/testECCP521.pub.hex)|
 
 ## Security considerations
 

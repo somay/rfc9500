@@ -5,9 +5,9 @@
 ########
 
 # Generate public keys
-for n in {1024,2048,4096}; do openssl dsa -in ./pem/testDLP${n}.pem -pubout -out ./pem/testDLP${n}.pub.pem;  done
-for n in {256,384,521}; do openssl ec -in ./pem/testECCP${n}.pem -pubout -out ./pem/testECCP${n}.pub.pem;  done
-for n in {1024,2048,4096}; do openssl rsa -in ./pem/testRSA${n}.pem -pubout -out ./pem/testRSA${n}.pub.pem;  done
+for n in {1024,2048,4096}; do openssl dsa -in "./pem/testDLP${n}.pem" -pubout -out "./pem/testDLP${n}.pub.pem";  done
+for n in {256,384,521}; do openssl ec -in "./pem/testECCP${n}.pem" -pubout -out "./pem/testECCP${n}.pub.pem";  done
+for n in {1024,2048,4096}; do openssl rsa -in "./pem/testRSA${n}.pem" -pubout -out "./pem/testRSA${n}.pub.pem";  done
 
 
 ########
